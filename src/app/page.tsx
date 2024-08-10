@@ -1,15 +1,9 @@
-import Image from "next/image";
-
-import { basePath } from "../../next.config";
-const BASE_PATH = basePath ? basePath : "";
+import Collapsible from "./components/collapsible";
 
 export default function Home() {
   return (
     <main>
-      <p>A</p>
-      <p>B</p>
-      <p>C</p>
-      <p>D</p>
+      <Collapsible header="Description1" />
     </main>
   );
 }
