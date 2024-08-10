@@ -9,6 +9,7 @@ export default function Home() {
       <p>A</p>
       <p>B</p>
       <p>C</p>
+      <p>D</p>
     </main>
   );
 }
