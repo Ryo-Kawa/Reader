@@ -6,7 +6,7 @@ const BASE_PATH = basePath ? basePath : "";
 export default function Home() {
   return (
     <main>
-      
+      <p>A</p>
     </main>
   );
 }
