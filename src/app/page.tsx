@@ -8,6 +8,7 @@ export default function Home() {
     <main>
       <p>A</p>
       <p>B</p>
+      <p>C</p>
     </main>
   );
 }
