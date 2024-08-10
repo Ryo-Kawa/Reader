@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <main>
       <p>A</p>
+      <p>B</p>
     </main>
   );
 }
