@@ -1,19 +1,25 @@
 "use client";
 
+import styles from "./collapsible.module.css";
+
 import { useState } from "react";
 
-export default function Collapsible({header}: {header: string}) {
+export default function Collapsible({header, file}: {header: string, file: string}) {
     const [open, setOpen] = useState(false);
-    const content = <div>Content</div>
+    const content = (
+        <audio src={`./descriptions/${file}`} controls></audio>
+    )
 
     return (
-        <div>
-            <button onClick={() => {
-                setOpen(true);
+        <div className={styles.collapsible}>
+            <button className={styles.button} onClick={() => {
+                setOpen(!open);
             }}>
-                <h2>{header}</h2>
+                <span className={`${styles.arrow} ${open? styles.down : styles.right}`}></span><h2 className={styles.header}>{header}</h2>
             </button>
-            {open? content : ""}
+            <div>
+                {open? content : ""}
+            </div>
         </div>
     );
 }
