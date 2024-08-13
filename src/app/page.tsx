@@ -9,7 +9,6 @@ export default function Home() {
         <Collapsible header="説明1" file="1.mp3"/>
         <Collapsible header="説明2" file="2.mp3"/>
       </main>
-    </>
-    
+    </>   
   );
 }
