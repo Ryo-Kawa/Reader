@@ -1,14 +1,9 @@
-import Collapsible from "./components/collapsible";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <>
-      <link rel="icon" href="logo.svg" type="image/x-icon"></link>
-      <main>
-        <h1>開成学園天文気象部 音声読み上げ機能</h1>
-        <Collapsible header="説明1" file="1.mp3"/>
-        <Collapsible header="説明2" file="2.mp3"/>
-      </main>
-    </>   
+    <nav>
+      <Link href="/descriptions">説明一覧</Link>
+    </nav>
   );
 }

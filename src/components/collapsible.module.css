@@ -19,36 +19,22 @@
     vertical-align: middle;
     color: #333;
     line-height: 1;
-    position: relative;
     width: 8px;
     height: 8px;
-}
-  
-.arrow::before, .arrow::after {
-    content: '';
-    position: absolute;
-    background: currentColor;
-    border-radius: 0.1em;
-}
-  
-.arrow::before {
-    top: 0;
-    left: 0px;
-    right: 0;
-    height: 0.1em;
-}
-  
-.arrow::after {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 0.1em;
+    border: 0.2em solid currentColor;
+    border-left: 0;
+    border-bottom: 0;
+    box-sizing: border-box;
 }
 
 .right {
-    transform: translate(-100%, -25%) rotate(45deg);
+    transform: translate(-100%, -50%) rotate(45deg);
 }
 
 .down {
     transform: translate(-100%, -75%) rotate(135deg);
+}
+
+.audio {
+    width: 99%;
 }

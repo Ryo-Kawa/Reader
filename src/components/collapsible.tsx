@@ -7,7 +7,7 @@ import { useState } from "react";
 export default function Collapsible({header, file}: {header: string, file: string}) {
     const [open, setOpen] = useState(false);
     const content = (
-        <audio src={`./descriptions/${file}`} controls></audio>
+        <audio src={`./description_audios/${file}`} controls className={styles.audio}></audio>
     )
 
     return (
