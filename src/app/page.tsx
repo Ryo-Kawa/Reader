@@ -1,9 +1,43 @@
-import Link from "next/link";
+import TopBar from "@/components/top_bar";
 
 export default function Home() {
   return (
-    <nav>
-      <Link href="/description-list">説明一覧</Link>
-    </nav>
+    <>
+      <header>
+        <TopBar />
+      </header>
+      <main style={{top: 70, position: "relative"}}>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+        <h2>Home</h2>
+      </main>
+      <footer>
+
+      </footer>
+    </>
   );
 }
