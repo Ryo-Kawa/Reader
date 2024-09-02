@@ -1,13 +1,10 @@
 "use client";
 
-import { useContext } from "react";
+import { Dispatch, SetStateAction } from "react";
 import styles from "./top_bar.module.css";
 import Image from "next/image";
-import { KindContext } from "@/app/page";
 
-export default function TopBar() {
-    const {kind, setKind} = useContext(KindContext);
-
+export default function TopBar({kind, setKind}: {kind: string, setKind: Dispatch<SetStateAction<string>>}) {
     return (
         <div className={styles.bar}>
             <Image src="" alt="天君" className={styles.logo} width="30" height="30" />
