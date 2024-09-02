@@ -1,12 +1,25 @@
-import SideBar from "@/components/side_bar";
+"use client";
+
+import { useContext } from "react";
 import styles from "./top_bar.module.css";
+import Image from "next/image";
+import { KindContext } from "@/app/page";
 
 export default function TopBar() {
+    const {kind, setKind} = useContext(KindContext);
+
     return (
         <div className={styles.bar}>
-            <div className={styles.barStart}>
-                <SideBar /><h1 className={styles.header}>天文気象部</h1>
-            </div>
+            <Image src="" alt="天君" className={styles.logo} width="30" height="30" />
+            <h1 className={styles.header}>天文気象部</h1>
+            <form>
+                <label>実験の種類:</label>
+                <input type="radio" name="kind" value="meteorology" checked={kind === "meteorology"} onChange={event => setKind(event.target.value)} />
+                <label htmlFor="meteorology">気象</label>
+                <input type="radio" name="kind" value="astronomy" checked={kind === "astronomy"} onChange={event => setKind(event.target.value)} />
+                <label htmlFor="astronomy">天文</label>
+            </form>
+            <span>/開成学園公式サイトの部紹介は</span><a href="https://kaiseigakuen.jp/sclife/club/meteorology/" target="_blank">こちら</a>
         </div>
     );
 }

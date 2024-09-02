@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import "./global.css";
 
 config.autoAddCss = false;
 

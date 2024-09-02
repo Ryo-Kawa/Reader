@@ -1,0 +1,17 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    position: fixed;
+    height: calc(100% - 60px);
+    width: 100%;
+    top: 60px;
+}
+
+button {
+    margin: 0;
+    background: none;
+    border: none;
+}
