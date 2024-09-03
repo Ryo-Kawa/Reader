@@ -6,12 +6,11 @@ export default function SideBar() {
     const open = useContext(StateContext).state.open;
 
     return (
-        <div className={styles.side} style={{width: open? 300 : 0}}>
+        <div className={styles.side} data-open={open}>
             <ul>
-                <li>言語</li>
                 <li>開成学園公式の部紹介</li>
                 <li>参団グランプリについて</li>
-                <li>X(旧Twitter)(現在投稿していません)</li>
+                <li>X(現在投稿停止中)</li>
             </ul>
         </div>
     );

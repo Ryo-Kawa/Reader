@@ -1,0 +1,18 @@
+.cloud {
+    position: absolute;
+}
+
+.image {
+    width: 200px;
+    height: 75px;
+}
+
+.experience {
+    text-align: center;
+    white-space: nowrap;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

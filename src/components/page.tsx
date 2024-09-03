@@ -3,6 +3,9 @@
 import Top from "@/components/header/top";
 import Main from "@/components/main/main";
 import { createContext, Dispatch, SetStateAction, useState } from "react";
+import { basePath } from "../../next.config";
+
+export const BASE_PATH = basePath ? basePath : "";
 
 export const StateContext = createContext({} as {
     state: { kind: string, open: boolean }

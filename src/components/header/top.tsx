@@ -17,7 +17,7 @@ export default function Top() {
             <div className={styles.logoWrapper}><Image src="" alt="" className={styles.logo} /></div>
             <h1 className={styles.header}>天文気象部</h1>
             <div className={styles.selectWrapper}>
-                <span>種類:</span>
+                <span>実験の種類:</span>
                 <select name="kind" value={state.kind} className={styles.select} onChange={e => setState({...state, kind: e.target.value})}>
                     <option value="0">気象</option>
                     <option value="1">天文</option>
