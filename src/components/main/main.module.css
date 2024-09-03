@@ -1,18 +1,17 @@
-.page {
+.main {
     position: fixed;
-    background: #00bffe;
     width: 100%;
 }
 
 @media only screen and (max-width: 480px) {
-    .page {
+    .main {
         top: 40px;
         height: calc(100% - 40px);
     }
 }
 
 @media only screen and (min-width: 481px) {
-    .page {
+    .main {
         top: 60px;
         height: calc(100% - 60px);
     }
