@@ -2,17 +2,18 @@
     position: fixed;
     background: #00bffe;
     width: 100%;
-    height: calc(100% - 40px);
 }
 
 @media only screen and(max-width: 480px) {
     .page {
         top: 40px;
+        height: calc(100% - 40px);
     }
 }
 
 @media only screen and(min-width: 481px) {
     .page {
         top: 60px;
+        height: calc(100% - 60px);
     }
 }
