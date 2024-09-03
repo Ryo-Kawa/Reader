@@ -1,6 +1,12 @@
+html, body, main, button {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+}
+
 html, body {
     height: 100%;
-    margin: 0;
 }
 
 main {
@@ -8,10 +14,4 @@ main {
     height: calc(100% - 60px);
     width: 100%;
     top: 60px;
-}
-
-button {
-    margin: 0;
-    background: none;
-    border: none;
 }
