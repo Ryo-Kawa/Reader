@@ -31,7 +31,7 @@
 
     .header {
         margin-left: 2.5px;
-        font-size: 1px;
+        font-size: 15px;
     }
 
     .selectWrapper {
@@ -57,7 +57,7 @@
     }
 
     .logoWrapper {
-        margin-left: 15px;
+        margin-left: 20px;
     }
 
     .logo {
@@ -80,13 +80,4 @@
         height: 30px;
         font-size: 18px;
     }
-}
-
-.logo {
-    margin-left: 10px;
-}
-
-.header {
-    font-size: 30px;
-    margin-left: 5px;
 }
