@@ -1,4 +1,4 @@
-html, body, main, button {
+html, body, main, button, h1, div {
     margin: 0;
     padding: 0;
     background: none;
@@ -7,11 +7,4 @@ html, body, main, button {
 
 html, body {
     height: 100%;
-}
-
-main {
-    position: fixed;
-    height: calc(100% - 60px);
-    width: 100%;
-    top: 60px;
 }

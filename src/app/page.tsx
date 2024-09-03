@@ -13,7 +13,9 @@ export default function Home() {
       <header>
         <TopBar kind={kind} setKind={setKind} />
       </header>
-      {kind === "0" ? <MeteorologyPage /> : <AstronomyPage />}
+      <main>
+        {kind === "0" ? <MeteorologyPage /> : <AstronomyPage />}
+      </main>
       <footer>
 
       </footer>

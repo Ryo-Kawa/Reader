@@ -1,7 +1,9 @@
+import styles from "./meteorology_page.module.css";
+
 export default function MeteorologyPage() {
     return (
-        <main style={{background: "#00bffe"}}>
+        <div className={styles.page}>
             <div>Here create clouds and experiment options related to meteorology inside.</div>
-        </main>
+        </div>
     );
 }
