@@ -1,7 +1,7 @@
 .page {
     position: fixed;
     background: #00bffe;
-    top: 60px;
+    top: 40px;
     width: 100%;
-    height: calc(100% - 60px);
+    height: calc(100% - 40px);
 }
