@@ -11,6 +11,7 @@ export default function SideBar() {
                 <li>言語</li>
                 <li>開成学園公式の部紹介</li>
                 <li>参団グランプリについて</li>
+                <li>X(旧Twitter)(現在投稿していません)</li>
             </ul>
         </div>
     );
