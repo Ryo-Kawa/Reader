@@ -9,14 +9,14 @@
     transition: 0.5s;
 }
 
+.side[data-open=true] {
+    width: 250px;
+}
+
 @media only screen and (max-width: 480px) {
-    .side[data-open=true] {
-        width: 150px;
-    }
+    
 }
 
 @media only screen and (min-width: 481px) {
-    .side[data-open=true] {
-        width: 250px;
-    }
+    
 }
