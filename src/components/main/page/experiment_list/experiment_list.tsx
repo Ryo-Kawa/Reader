@@ -9,7 +9,7 @@ export default function ExperimentList() {
                 <li><Link href="/">...</Link></li>
                 <li><Link href="/">...</Link></li>
                 <li><Link href="/">...</Link></li>
-                <li><Link href="/">...</Link></li>
+                <li><Link href="/">終わりに</Link></li>
             </ol>
         </section>
     );

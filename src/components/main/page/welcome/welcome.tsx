@@ -1,10 +1,13 @@
 import Image from "next/image";
+import styles from "./welcome.module.css";
 import { BASE_PATH } from "@/components/home";
 
 export default function Welcome() {
     return (
-        <section>
-            <Image src={`${BASE_PATH}/image/welcome.svg`} alt="天文気象部へようこそ！" width={200} height={150}></Image>
+        <section className={styles.section}>
+            <div className={styles.imageWrapper}>
+                <Image src={`${BASE_PATH}/image/welcome.svg`} alt="天文気象部へようこそ！" width={800} height={600}></Image>
+            </div>
         </section>
     );
 }
