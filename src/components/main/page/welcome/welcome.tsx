@@ -6,7 +6,7 @@ export default function Welcome() {
     return (
         <section className={styles.section}>
             <div className={styles.imageWrapper}>
-                <Image src={`${BASE_PATH}/image/welcome.svg`} alt="天文気象部へようこそ！" width={800} height={600}></Image>
+                <Image src={`${BASE_PATH}/image/welcome.svg`} alt="天文気象部へようこそ！" fill></Image>
             </div>
         </section>
     );
