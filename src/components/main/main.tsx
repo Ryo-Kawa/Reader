@@ -14,9 +14,9 @@ export default function Main() {
     return (
         <div className={styles.main}>
             <SideBar />
-            <div className={styles.page} onClick={() => setState({ ...state, open: false })}>
-                <p>※ラフです。デザインはあとで整えます。要件あればLINEに。</p>
-                <Welcome />
+            { state.open ? <button className={styles.closeButton} onClick={() => setState({ ...state, open: false })}></button> : ""}
+            <Welcome />
+            <div className={styles.page}>
                 <ExperimentList />
                 <RelatedLinks />
                 <Comment />

@@ -1,6 +1,6 @@
 "use client";
 
-import Top from "@/components/header/top";
+import Top from "@/components/top/top";
 import Main from "@/components/main/main";
 import { createContext, Dispatch, SetStateAction, useState } from "react";
 import { basePath } from "../../next.config";

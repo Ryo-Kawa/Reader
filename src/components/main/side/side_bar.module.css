@@ -1,10 +1,11 @@
 .side {
-    position: absolute;
-    background: white;
-    z-index: 1;
+    position: fixed;
+    background: black;
+    color: white;
+    z-index: 2;
     width: 0px;
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     white-space: nowrap;
     transition: 0.5s;
 }

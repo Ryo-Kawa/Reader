@@ -1,16 +1,24 @@
 import Link from "next/link";
+import Header from "../header/header";
 
 export default function ExperimentList() {
     return (
         <section>
-            <h1>実験一覧</h1>
+            <Header title="実験一覧" />
             <p>模造紙に従って、なんとかかんとかしてください。</p>
-            <ol>
-                <li><Link href="/">...</Link></li>
-                <li><Link href="/">...</Link></li>
-                <li><Link href="/">...</Link></li>
-                <li><Link href="/">終わりに</Link></li>
-            </ol>
+            <nav>
+                <ol>
+                    <li><Link href="/">...</Link></li>
+                    <li><Link href="/">...</Link></li>
+                    <li><Link href="/">...</Link></li>
+                    <li><Link href="/">...</Link></li>
+                    <li><Link href="/">...</Link></li>
+                    <li><Link href="/">...</Link></li>
+                    <li><Link href="/">...</Link></li>
+                    <li><Link href="/">...</Link></li>
+                    <li><Link href="/">終わりに</Link></li>
+                </ol>
+            </nav>
         </section>
     );
 }

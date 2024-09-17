@@ -1,7 +1,9 @@
+import Header from "../header/header";
+
 export default function RelatedLinks() {
     return (
         <section>
-            <h1>関連リンク</h1>
+            <Header title="関連リンク" />
             <ul>
                 <li><a href="#">参団グランプリ投票</a></li>
                 <li><a href="#">開成学園公式サイト部紹介</a></li>

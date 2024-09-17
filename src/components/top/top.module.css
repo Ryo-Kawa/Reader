@@ -1,6 +1,6 @@
 .top {
     background: #e7e7e7;
-    z-index: 2;
+    z-index: 3;
     position: fixed;
     display: flex;
     align-items: center;
@@ -23,10 +23,14 @@
     }
 
     .logoWrapper {
+        width: 20px;
+        aspect-ratio: 1 / 1;
         margin-left: 12px;
     }
 
     .logo {
+        position: relative;
+        aspect-ratio: 1 / 1;
         width: 20px;
         height: 20px;
     }
@@ -50,12 +54,17 @@
     }
 
     .logoWrapper {
+        position: relative;
+        aspect-ratio: 1 / 1;
         margin-left: 20px;
+        width: 35px;
+        height: 35px;
     }
 
     .logo {
-        width: 35px;
-        height: 35px;
+        aspect-ratio: 1 / 1;
+        position: absolute;
+        width: 100%;
     }
 
     .header {

@@ -8,8 +8,6 @@ export default function SideBar() {
     return (
         <div className={styles.side} data-open={open}>
             <ul>
-                <li>テーマ: 気象(時間あったら)</li>
-                <li>言語: 日本語(時間あったら)</li>
                 <li>
                     コンテンツ(開閉式)
                     <ul>
