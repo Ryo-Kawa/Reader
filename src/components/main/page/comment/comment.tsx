@@ -1,12 +1,10 @@
-import Header from "../header/header";
+import Header from "../page_components/header/header";
 
 export default function Comment() {
     return (
         <section>
             <Header title="コメント" />
-            <p>感想、良かった点、悪かった点とかできれば。<br />来年よりよくするために使います。</p>
-            <textarea name="comment" rows={4} cols={50} style={{resize: "none"}}></textarea>
-            <button>送信</button>
+            <p>感想は<a href="#">こちら</a>から送信できます。<br />(感想は匿名です。集まった感想は来年度、天文気象部をよりよくするために使われます。)</p>
         </section>
     );
 }
