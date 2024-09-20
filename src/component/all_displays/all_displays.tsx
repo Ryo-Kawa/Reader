@@ -1,4 +1,4 @@
-import styles from "./display.module.css";
+import styles from "./all_displays.module.css";
 import Ruby from "../ruby/ruby";
 import Video from "../video/video";
 
