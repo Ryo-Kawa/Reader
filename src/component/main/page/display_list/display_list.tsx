@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Header from "../component/header/header";
-import styles from "./display.module.css";
+import styles from "./display_list.module.css";
 import { display_list, display_num } from "@/component/home";
 
 export default function DisplayList() {
