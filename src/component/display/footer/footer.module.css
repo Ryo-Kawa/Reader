@@ -20,13 +20,31 @@
 .previous {
     position: absolute;
     display: flex;
-    left: 40%;
     transform: translate(-50%, -50%);
 }
 
 .next {
     position: absolute;
     display: flex;
-    left: 60%;
     transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 480px) {
+    .previous {
+        left: 30%;
+    }
+
+    .next {
+        left: 70%;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .previous {
+        left: 35%;
+    }
+
+    .next {
+        left: 65%;
+    }
 }
