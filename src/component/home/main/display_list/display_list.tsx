@@ -2,7 +2,6 @@ import Link from "next/link";
 import styles from "./display_list.module.css";
 import main_styles from "../main.module.css";
 import { display_list, display_num } from "@/component/all_exports";
-import Ruby from "@/component/ruby/ruby";
 
 export default function DisplayList() {
     const list = [];
@@ -15,7 +14,7 @@ export default function DisplayList() {
         <section>
             <h1 className={main_styles.header}>展示一覧</h1>
             <div className={main_styles.content}>
-                <p><Ruby text="模造紙" ruby="もぞうし" />と一緒に読み進めてください。</p>
+                <p>模造紙と一緒に読み進めてください。</p>
                 <nav>
                     <ol>
                         { list }
