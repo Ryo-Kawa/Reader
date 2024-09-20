@@ -9,7 +9,6 @@ export default function Display({ index }: { index: number }) {
         <div className={styles.display}>
             <main className={styles.main}>
                 <h1 className={styles.header}>{display_list[index].title}</h1>
-                <audio src={`./audio/${index}.mp3`} controls className={styles.audio}></audio>
                 {display_list[index].content}
             </main>
             <footer>
