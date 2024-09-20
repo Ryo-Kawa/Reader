@@ -5,12 +5,6 @@ html, body, main, button, h1, div, p, li, ol {
     border: none;
 }
 
-ruby, rt {
-    all: revart;
-}
-
 html, body {
     height: 100%;
-    line-height: 100%;
-    text-align: justify;
 }
