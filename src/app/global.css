@@ -5,8 +5,8 @@ html, body, main, button, h1, div, p, li, ol {
     border: none;
 }
 
-ruby {
-    padding-top: 1em;
+ruby, rt {
+    all: revart;
 }
 
 html, body {
