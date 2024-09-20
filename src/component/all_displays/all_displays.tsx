@@ -56,11 +56,17 @@ export function GalacticRadio() {
     return (
         <section>
             <p>&emsp;我々がいる天の川銀河からは、私たちが見ている可視光だけでなく目に見えない電波というものを発しています。さらに、天の川銀河は回転しているため、その電波の周波数もドップラー効果によって変わるはずです。そこで今回私たちは、事前に国立天文台などの天文家の方々からアドバイスをいただき、自分たちの手で天の川からの電波をパラボラアンテナで受信し、その周波数を調べることで天の川銀河が本当に回転しているのかどうかを検証することにしました。
-                <br />&emsp;具体的には、21cm線(周波数1420.40575MHz) という種類の電波を受信します。 
-                <br />&emsp;観測の結果、見事銀河から出たと思われる仮説通りの電波(周波数約1420MHz)を受信することができました。また、受信した電波の周波数からドップラー効果を考えると、天の川銀河は地球の北極側から見て 時計回りに回転していることがわかり、全ての検証に成功しました。<Ruby text="詳" ruby="くわ" />しくは観測データや天の川銀河の構造を示した図をご覧ください。</p>
+                <br />&emsp;具体的には、21cm線(周波数1420.40575MHz) という種類の電波を受信します。</p>
+            <_Image path="./image/galactic_radio_picture.webp" title="受信中の写真" />
+            <p>&emsp;観測の結果、見事銀河から出たと思われる仮説通りの電波(周波数約1420MHz)を受信することができました。また、受信した電波の周波数からドップラー効果を考えると、天の川銀河は地球の北極側から見て 時計回りに回転していることがわかり、全ての検証に成功しました。<Ruby text="詳" ruby="くわ" />しくは観測データや天の川銀河の構造を示した図をご覧ください。</p>
             <_Image path="./image/galactic_radio_figure.webp" title="天の川銀河の構造" />
-            
-                <br />&emsp;今後の展望として、<Ruby text="解析" ruby="かいせき" />を進めて具体的な数値を求めたり、学校内でも新しいデータを得ようと考えています。</p>
+            <_Image path="./image/galactic_radio_data1.webp" title="受信データ１" />
+            <_Image path="./image/galactic_radio_data2.webp" title="受信データ２" />
+            <_Image path="./image/galactic_radio_data3.webp" title="受信データ３" />
+            <_Image path="./image/galactic_radio_data4.webp" title="受信データ４" />
+            <_Image path="./image/galactic_radio_data5.webp" title="受信データ５" />
+            <_Image path="./image/galactic_radio_data6.webp" title="受信データ６" />
+            <p>&emsp;今後の展望として、<Ruby text="解析" ruby="かいせき" />を進めて具体的な数値を求めたり、学校内でも新しいデータを得ようと考えています。</p>
         </section>
     );
 }
@@ -69,12 +75,12 @@ export function SunObservation() {
     return (
         <section>
             <p>&emsp;私たちは、晴れた日に毎日高校<Ruby text="棟" ruby="とう" />屋上のドームで太陽観測を行っています。 
-                <br />&emsp;まず、望遠鏡で太陽を<Ruby text="投影" ruby="とうえい" />し、黒点・<Ruby text="白斑" ruby="はくはん" />をスケッチします。次に、望遠鏡にカメラを接続して太陽の写真を<Ruby text="撮影" ruby="さつえい" />します。最後に、Hα線という<Ruby text="特殊" ruby="とくしゅ" />な光のみを通す望遠鏡にC-MOSカメラをつけてプロミネンス・ダークフィラメント・<Ruby text="彩層" ruby="さいそう" />の<Ruby text="撮影" ruby="さつえい" />を行います。実際の観測データも併せてご覧ください。 
-                <br />&emsp;また、展示のタイムラプスビデオは、カメラ観測で得た1月13日から8月23日までの太陽の写真を<Ruby text="繋" ruby="つな" />ぎ合わせたものです。実は太陽も地球と同じように自転しており、それによる黒点の動きがよくわかると思いますので、ぜひ注目してご覧ください。</p>
+                <br />&emsp;まず、望遠鏡で太陽を<Ruby text="投影" ruby="とうえい" />し、黒点・<Ruby text="白斑" ruby="はくはん" />をスケッチします。次に、望遠鏡にカメラを接続して太陽の写真を<Ruby text="撮影" ruby="さつえい" />します。最後に、Hα線という<Ruby text="特殊" ruby="とくしゅ" />な光のみを通す望遠鏡にC-MOSカメラをつけてプロミネンス・ダークフィラメント・<Ruby text="彩層" ruby="さいそう" />の<Ruby text="撮影" ruby="さつえい" />を行います。実際の観測データも併せてご覧ください。</p>
             <_Image path="./image/sun_observation_sketch.webp" title="太陽のスケッチ" />
             <_Image path="./image/sun_observation_picture.webp" title="太陽の写真" />
             <_Image path="./image/sun_observation_dark_filament.webp" title="ダークフィラメントの写真" />
             <_Image path="./image/sun_observation_prominence_chromosphere.webp" title="プロミネンス・彩層の写真" />
+            <p>&emsp;また、展示のタイムラプスビデオは、カメラ観測で得た1月13日から8月23日までの太陽の写真を<Ruby text="繋" ruby="つな" />ぎ合わせたものです。実は太陽も地球と同じように自転しており、それによる黒点の動きがよくわかると思いますので、ぜひ注目してご覧ください。</p>
             <Video path="./video/timelapse.mp4" title="タイムラプス" />
         </section>
     );
