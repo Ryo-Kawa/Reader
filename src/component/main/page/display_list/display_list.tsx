@@ -1,12 +1,13 @@
 import Link from "next/link";
 import Header from "../component/header/header";
+import styles from "./display.module.css";
 import { display_list, display_num } from "@/component/home";
 
 export default function DisplayList() {
     const list = [];
 
     for(let i = 0; i < display_num; i++) {
-        list.push(<li><Link href={`/display?index=${i}`}>{display_list[i].title}</Link></li>);
+        list.push(<li className={styles.item}><Link href={`/display?index=${i}`}>{display_list[i].title}</Link></li>);
     }
     
     return (
