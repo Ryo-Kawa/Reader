@@ -1,4 +1,4 @@
-html, body, main, button, h1, div, p, li, ol {
+html, body, main, button, h1, div, p, li, ol, audio {
     margin: 0;
     padding: 0;
     background: none;
@@ -7,4 +7,8 @@ html, body, main, button, h1, div, p, li, ol {
 
 html, body {
     height: 100%;
+}
+
+p {
+    line-height: 30px;
 }

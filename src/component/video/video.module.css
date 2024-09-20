@@ -1,0 +1,12 @@
+.videoWrapper {
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.video {
+    object-fit: contain;
+    width: 100%;
+}
