@@ -6,8 +6,9 @@ import "./global.css";
 config.autoAddCss = false;
 
 export const metadata: Metadata = {
-  title: "天文気象部",
-  description: "天文気象部のサイト",
+  title: "天文気象部 文化祭",
+  description: "天文気象部の文化祭用のサイトです。",
+  keywords: [],
   robots: "noindex",
 };
 
