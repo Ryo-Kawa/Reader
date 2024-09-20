@@ -5,6 +5,9 @@ html, body, main, button, h1, div, p, li, ol {
     border: none;
 }
 
+ruby {
+    position: fixed;
+}
 html, body {
     height: 100%;
 }
