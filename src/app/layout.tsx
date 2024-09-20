@@ -8,7 +8,7 @@ config.autoAddCss = false;
 export const metadata: Metadata = {
   title: "天文気象部 文化祭",
   description: "天文気象部の文化祭用のサイトです。",
-  keywords: [],
+  keywords: ["開成学園", "天文気象部", "文化祭"],
   robots: "noindex",
 };
 
