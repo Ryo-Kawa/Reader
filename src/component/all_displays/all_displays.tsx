@@ -1,4 +1,3 @@
-import styles from "./all_displays.module.css";
 import Ruby from "../ruby/ruby";
 import Video from "../video/video";
 import _Image from "../image/image";
@@ -57,15 +56,15 @@ export function GalacticRadio() {
         <section>
             <p>&emsp;我々がいる天の川銀河からは、私たちが見ている可視光だけでなく目に見えない電波というものを発しています。さらに、天の川銀河は回転しているため、その電波の周波数もドップラー効果によって変わるはずです。そこで今回私たちは、事前に国立天文台などの天文家の方々からアドバイスをいただき、自分たちの手で天の川からの電波をパラボラアンテナで受信し、その周波数を調べることで天の川銀河が本当に回転しているのかどうかを検証することにしました。
                 <br />&emsp;具体的には、21cm線(周波数1420.40575MHz) という種類の電波を受信します。</p>
-            <_Image path="./image/galactic_radio_picture.webp" title="受信中の写真" />
+            <_Image path="./image/galactic_radio_picture.webp" title="観測中の写真" />
             <p>&emsp;観測の結果、見事銀河から出たと思われる仮説通りの電波(周波数約1420MHz)を受信することができました。また、受信した電波の周波数からドップラー効果を考えると、天の川銀河は地球の北極側から見て 時計回りに回転していることがわかり、全ての検証に成功しました。<Ruby text="詳" ruby="くわ" />しくは観測データや天の川銀河の構造を示した図をご覧ください。</p>
             <_Image path="./image/galactic_radio_figure.webp" title="天の川銀河の構造" />
-            <_Image path="./image/galactic_radio_data1.webp" title="受信データ１" />
-            <_Image path="./image/galactic_radio_data2.webp" title="受信データ２" />
-            <_Image path="./image/galactic_radio_data3.webp" title="受信データ３" />
-            <_Image path="./image/galactic_radio_data4.webp" title="受信データ４" />
-            <_Image path="./image/galactic_radio_data5.webp" title="受信データ５" />
-            <_Image path="./image/galactic_radio_data6.webp" title="受信データ６" />
+            <_Image path="./image/galactic_radio_data1.webp" title="観測データ１" />
+            <_Image path="./image/galactic_radio_data2.webp" title="観測データ２" />
+            <_Image path="./image/galactic_radio_data3.webp" title="観測データ３" />
+            <_Image path="./image/galactic_radio_data4.webp" title="観測データ４" />
+            <_Image path="./image/galactic_radio_data5.webp" title="観測データ５" />
+            <_Image path="./image/galactic_radio_data6.webp" title="観測データ６" />
             <p>&emsp;今後の展望として、<Ruby text="解析" ruby="かいせき" />を進めて具体的な数値を求めたり、学校内でも新しいデータを得ようと考えています。</p>
         </section>
     );
