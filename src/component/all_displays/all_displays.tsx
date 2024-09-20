@@ -36,7 +36,7 @@ export function _3DWeatherChart() {
 export function ConstellationModel() {
     return (
         <section>
-            <p>Coming soon...</p>
+            <p>&emsp;Coming soon...</p>
         </section>
     );
 }
@@ -88,7 +88,7 @@ export function SunObservation() {
 export function Telescope() {
     return (
         <section>
-            <p>Coming soon...</p>
+            <p>&emsp;Coming soon...</p>
         </section>
     );
 }
