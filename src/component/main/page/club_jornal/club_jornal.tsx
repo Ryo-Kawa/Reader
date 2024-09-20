@@ -1,3 +1,5 @@
+import Header from "../component/header/header";
+
 export default function ClubJornal() {
     return (
         <section>
