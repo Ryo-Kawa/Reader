@@ -1,3 +1,4 @@
+import styles from "./display.module.css";
 import Ruby from "../ruby/ruby";
 import Video from "../video/video";
 
@@ -83,8 +84,8 @@ export function Telescope() {
 export function Tornado() {
     return (
         <section>
-            <p style={{float: "left"}}><Video path="./video/tornado.mp4" title="竜巻の実験の様子" /></p>
-            <p style={{minWidth: "50%"}}>&emsp;この装置は下のブロワーから風を送り出し、八本のパイプに空気が送り込まれます。このパイプには同じ角度に穴が空いていて、そこから空気が放出されます。これらがぶつかり合うことで<Ruby text="渦" ruby="うず" />が出来ます。これが上についてあるサーキュレーターの上昇気流により引き延ばされます。
+            <p className={styles.tornadeImage}><Video path="./video/tornado.mp4" title="竜巻の実験の様子" /></p>
+            <p>&emsp;この装置は下のブロワーから風を送り出し、八本のパイプに空気が送り込まれます。このパイプには同じ角度に穴が空いていて、そこから空気が放出されます。これらがぶつかり合うことで<Ruby text="渦" ruby="うず" />が出来ます。これが上についてあるサーキュレーターの上昇気流により引き延ばされます。
                 <br />&emsp;これは（非スーパーセル）<Ruby text="竜巻" ruby="たつまき" />における地表付近の<Ruby text="渦" ruby="うず" />を再現しています。
                 <br />&emsp;装置の上のサーキュレーターが空気を吸い上げ、これは積乱雲による上昇気流を再現しています。
                 <br />&emsp;また、手で<Ruby text="桶" ruby="おけ" />を下げていることで、竜巻が引き<Ruby text="伸" ruby="の" />ばされていることを再現しています。
