@@ -96,7 +96,9 @@ export function Tornado() {
 export function Finally() {
     return (
         <section>
-            <p>&emsp;最後までご覧いただきありがとうございました。</p>
+            <p>&emsp;最後までご覧いただきありがとうございました。
+                <br />&emsp;もしよろしければ、参団グランプリに投票してくれると幸いです。投票場所は２つ下のB<Ruby text="棟" ruby="とう" />１階にあります。
+                <br />&emsp;また、コメントの送信は<a href="https://docs.google.com/forms/d/e/1FAIpQLSc_PUmAJzD7k6CzKiXGOr6RrGRJsSO_x2Z7rZxUHo7sbmfPbQ/viewform?usp=sf_link">こちら</a>から、オンラインの部誌の閲覧は<a href="https://drive.google.com/file/d/1SZyjIK-c53WSN8EaBqHOhJbgEJKxxX1g/view?usp=drivesdk">こちら</a>からできます。</p>
         </section>
     )
 }
