@@ -1,0 +1,12 @@
+.item {
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.item:has(rt) + .item:not(:has(rt)) {
+    margin-top: 12px;
+}
+
+.item:not(:has(rt)) + .item:not(:has(rt)) {
+    margin-top: 14px;
+}

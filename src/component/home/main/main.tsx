@@ -1,9 +1,9 @@
 import styles from "./main.module.css";
-import Welcome from "./page/welcome/welcome";
-import DisplayList from "./page/display_list/display_list";
-import SandanGrandPrix from "./page/sandan_grand_prix/sandan_grand_prix";
-import Comment from "./page/comment/comment";
-import ClubJornal from "./page/club_jornal/club_jornal";
+import Welcome from "./welcome/welcome";
+import DisplayList from "./display_list/display_list";
+import SandanGrandPrix from "./sandan_grand_prix/sandan_grand_prix";
+import Comment from "./comment/comment";
+import ClubJornal from "./club_jornal/club_jornal";
 
 export default function Main() {
     return (

@@ -1,6 +1,6 @@
 "use client";
 
-import Display from "@/component/main/page/component/display/display";
+import Display from "@/component/display/display";
 import { useSearchParams } from "next/navigation";
 import { Suspense } from 'react';
 

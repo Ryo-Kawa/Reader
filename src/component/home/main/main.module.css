@@ -12,11 +12,13 @@
     padding-bottom: 50px;
 }
 
-.closeButton {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
+.header {
+    font-size: 30px;
+    padding: 50px 0 10px 0;
+}
+
+.content {
+    padding-left: 5px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -27,6 +29,6 @@
 
 @media only screen and (min-width: 481px) {
     .page {
-        width: 60%;
+        width: 80%;
     }
 }

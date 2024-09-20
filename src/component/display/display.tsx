@@ -1,7 +1,7 @@
 "use client";
 
-import Footer from "@/component/footer/footer";
-import { display_list } from "@/component/home";
+import Footer from "./footer/footer";
+import { display_list } from "@/component/all_exports";
 
 export default function Display({ index }: { index: number }) {
     return (

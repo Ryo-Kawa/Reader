@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./welcome.module.css";
-import { BASE_PATH } from "@/component/home";
+import { BASE_PATH } from "@/component/all_exports";
 
 export default function Welcome() {
     return (
