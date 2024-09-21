@@ -13,6 +13,7 @@ export function Front() {
             </p>
             <Video path="./video/front.mp4" title="前線の実験の様子" />
             <Pdf path="./pdf/front.pdf" title="前線の模造紙" />
+            <object data="filename.pdf" type="application/pdf" width="500" height="500"/>
         </section>
     );
 }
