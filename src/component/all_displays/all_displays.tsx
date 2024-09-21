@@ -56,7 +56,7 @@ export function GalacticRadio() {
         <section>
             <p>&emsp;我々がいる天の川銀河からは、私たちが見ている可視光だけでなく目に見えない電波というものを発しています。さらに、天の川銀河は回転しているため、その電波の周波数もドップラー効果によって変わるはずです。そこで今回私たちは、事前に国立天文台などの天文家の方々からアドバイスをいただき、自分たちの手で天の川からの電波をパラボラアンテナで受信し、その周波数を調べることで天の川銀河が本当に回転しているのかどうかを検証することにしました。
                 <br />&emsp;具体的には、21cm線(周波数1420.40575MHz) という種類の電波を受信します。</p>
-            <_Image path="./image/galactic_radio_picture.webp" title="観測中の写真" />
+            <_Image path="./image/galactic_radio_picture.webp" title="観測の様子" />
             <p>&emsp;観測の結果、見事銀河から出たと思われる仮説通りの電波(周波数約1420MHz)を受信することができました。また、受信した電波の周波数からドップラー効果を考えると、天の川銀河は地球の北極側から見て 時計回りに回転していることがわかり、全ての検証に成功しました。<Ruby text="詳" ruby="くわ" />しくは観測データや天の川銀河の構造を示した図をご覧ください。</p>
             <_Image path="./image/galactic_radio_figure.webp" title="天の川銀河の構造" />
             <_Image path="./image/galactic_radio_data1.webp" title="観測データ１" />
@@ -76,9 +76,9 @@ export function SunObservation() {
             <p>&emsp;私たちは、晴れた日に毎日高校<Ruby text="棟" ruby="とう" />屋上のドームで太陽観測を行っています。 
                 <br />&emsp;まず、望遠鏡で太陽を<Ruby text="投影" ruby="とうえい" />し、黒点・<Ruby text="白斑" ruby="はくはん" />をスケッチします。次に、望遠鏡にカメラを接続して太陽の写真を<Ruby text="撮影" ruby="さつえい" />します。最後に、Hα線という<Ruby text="特殊" ruby="とくしゅ" />な光のみを通す望遠鏡にC-MOSカメラをつけてプロミネンス・ダークフィラメント・<Ruby text="彩層" ruby="さいそう" />の<Ruby text="撮影" ruby="さつえい" />を行います。実際の観測データも併せてご覧ください。</p>
             <_Image path="./image/sun_observation_sketch.webp" title="実際のスケッチ" />
-            <_Image path="./image/sun_observation_picture.webp" title="2024年8月10日に撮影された太陽(iso400 露出1/90s)" />
-            <_Image path="./image/sun_observation_prominence_chromosphere.webp" title="2023年11月22日撮影 プロミネンスの様子" />
-            <_Image path="./image/sun_observation_dark_filament.webp" title="同日撮影 ダークフィラメントの様子" />
+            <_Image path="./image/sun_observation_picture.webp" title={(<>2024年8月10日に<Ruby text="撮影" ruby="さつえい" />された太陽(iso400 <Ruby text="露出" ruby="ろしゅつ" />1/90s)</>)} />
+            <_Image path="./image/sun_observation_prominence_chromosphere.webp" title={(<>2023年11月22日<Ruby text="撮影" ruby="さつえい" /> プロミネンスの様子</>)} />
+            <_Image path="./image/sun_observation_dark_filament.webp" title={(<>同日<Ruby text="撮影" ruby="さつえい" /> ダークフィラメントの様子</>)} />
             <p>&emsp;また、展示のタイムラプスビデオは、カメラ観測で得た1月13日から8月23日までの太陽の写真を<Ruby text="繋" ruby="つな" />ぎ合わせたものです。実は太陽も地球と同じように自転しており、それによる黒点の動きがよくわかると思いますので、ぜひ注目してご覧ください。</p>
             <Video path="./video/timelapse.mp4" title="タイムラプス" />
         </section>
