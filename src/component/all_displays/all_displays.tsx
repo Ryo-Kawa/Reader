@@ -79,7 +79,7 @@ export function GalacticRadio() {
             <_Image path="./image/galactic_radio_data4.webp" title="観測データ４" />
             <_Image path="./image/galactic_radio_data5.webp" title="観測データ５" />
             <_Image path="./image/galactic_radio_data6.webp" title="観測データ６" />
-            <p>&emsp;今後の展望として、<Ruby text="解析" ruby="かいせき" />を進めて具体的な数値を求めたり、学校内でも新しいデータを得ようと考えています。</p>]
+            <p>&emsp;今後の展望として、<Ruby text="解析" ruby="かいせき" />を進めて具体的な数値を求めたり、学校内でも新しいデータを得ようと考えています。</p>
             <Pdf path="./pdf/galactic_radio.pdf" title="銀河電波の模造紙" />
         </section>
     );
