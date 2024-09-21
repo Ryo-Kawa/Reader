@@ -66,7 +66,6 @@ export function ConstellationModel() {
             <div className={styles.paperWrapper}>
                 <_Image path="./image/constellation_model1.webp" title="星座模型の模造紙 1ページ目" />
                 <_Image path="./image/constellation_model2.webp" title="星座模型の模造紙 2ページ目" />
-                <_Image path="./image/constellation_model3.webp" title="星座模型の模造紙 3ページ目" />
             </div>
         </section>
     );
