@@ -7,7 +7,7 @@ export default function TopButton() {
     const [content, setContent] = useState((<></>));
 
     const onScroll = useCallback(() => {
-        if(window.scrollY > 300) setContent((<button className={styles.button}><FontAwesomeIcon icon={faArrowUp} /></button>));
+        if(window.scrollY > 300) setContent((<button className={styles.button} onClick={() => window.scroll({ top: 0, behavior: "smooth" })}><FontAwesomeIcon icon={faArrowUp} /></button>));
         else setContent(<></>);
     }, []);
 
