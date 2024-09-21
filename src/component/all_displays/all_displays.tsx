@@ -12,7 +12,7 @@ export function Front() {
                 <br />&emsp;暖気が寒気の上にのし上がっていく温暖前線、寒気が暖気の上に潜り込んでいく寒冷前線の形を再現することができた一方、容器との<Ruby text="摩擦" ruby="まさつ" />の<Ruby text="影響" ruby="えいきょう" />が実際よりも大きいため、実際はどちらの前線もこの実験より<Ruby text="尖" ruby="とが" />った形になると考えられます。
             </p>
             <Video path="./video/front.mp4" title="前線の実験の様子" />
-            <Pdf path="./pdf/front.pdf" title="前線の模造紙" >
+            <_Image path="./image/front.webp" title="前線の模造紙" >
         </section>
     );
 }
@@ -24,7 +24,7 @@ export function KarmanVortexStreet() {
             <p>&emsp;カルマン渦とは、空気の流れの中に障害物があるときに、障害物の後方に<Ruby text="渦" ruby="うず" />ができる現象です。<Ruby text="縄跳" ruby="なわと" />びの「ヒュンッ」やバットの「ヒュッ」という風切り音などもこの現象によるものです。空気の流れの中に障害物があると、その障害物の後ろは周りと比べると空気の流れの速さが<Ruby text="遅" ruby="おそ" />くなるので、周りの空気が障害物の後ろに回り込むように入ってくるので、その流れが<Ruby text="渦上" ruby="かじょう" />に見えます。
                 <br />&emsp;この展示では、カルマン<Ruby text="渦" ruby="うず" />を実際に目視で見ることができる冬の<Ruby text="韓国" ruby="かんこく" />の沖合のチェジュ島と呼ばれる島の後方で見られるカルマン<Ruby text="渦" ruby="うず" />を参考にし、実際に<Ruby text="渦" ruby="うず" />になる様子を展示で実演しています。
             </p>
-            <Pdf path="./pdf/karman_vortex_street.pdf" title={(<>カルマン<Ruby text="渦" ruby="うず" /></>)} />
+            <_Image path="./image/karman_vortex_street.webp" title={(<>カルマン<Ruby text="渦" ruby="うず" />の模造紙</>)} />
         </section>
     );
 }
@@ -37,8 +37,8 @@ export function _3DWeatherChart() {
                 <br />&emsp;立体天気図では立体として表していますが、気圧は地表で計測された気圧の値に基づく空気の重さを表す物で、高度を示す物ではありません。上空ほど気圧が高いわけではないという点に留意して見ていただけると幸いです。
                 <br />&emsp;天気図にはいろいろな構成要素がありますが、それぞれ見る人にわかりやすく伝えるために工夫が<Ruby text="施" ruby="ほどこ" />されています。<Ruby text="普段" ruby="ふだん" />の天気予報に出てくる天気図をいつもより少し<Ruby text="真剣" ruby="しんけん" />にみると面白いかもしれません。
             </p>
-            <_Image path="./image/3d_weather_chart.webp" title="実際の立体天気図" />
-            <Pdf path="./pdf/3d_weather_chart.pdf" title="立体天気図の模造紙" />
+            <_Image path="./image/3d_weather_chart_picture.webp" title="実際の立体天気図" />
+            <_Image path="./image/3d_weather_chart.webp" title="立体天気図の模造紙" />
         </section>
     );
 }
@@ -47,7 +47,9 @@ export function ConstellationModel() {
     return (
         <section>
             <p>&emsp;Coming soon...</p>
-            <Pdf path="./pdf/constellation_model.pdf" title="星座模型の模造紙" />
+            <_Image path="./image/constellation_model1.webp" title="星座模型の模造紙 1ページ目" />
+            <_Image path="./image/constellation_model2.webp" title="星座模型の模造紙 2ページ目" />
+            <_Image path="./image/constellation_model3.webp" title="星座模型の模造紙 3ページ目" />
         </section>
     );
 }
@@ -59,7 +61,7 @@ export function Model() {
                 <br />&emsp;模型の特に力を入れた部分について<Ruby text="紹介" ruby="しょうかい" />します。今回の模型は実際のロケットが大きいことから、全長161cmと大きな模型となりました。できるだけホンモノに近づけるため縮尺比をほとんど変えずロケットの配管や発射台からの接続部まで細かい部分や、ロケットの細かな色の違い、実物の表面の<Ruby text="荒" ruby="あら" />さは模型の素材の特性を使い、<Ruby text="塗装" ruby="とそう" />されているマークや給油口はシールを<Ruby text="貼" ruby="は" />って再現しました。
                 <br />&emsp;また、強度の関係で文化祭間近に<Ruby text="壊" ruby="こわ" />れるというハプニングもあり最後まで<Ruby text="波乱万丈" ruby="はらんばんじょう" />でしたが、個人的にはとても良い出来になったと思います。ぜひ実際のH-IIAロケット47号機の写真と比べながら見てみてください。
             </p>
-            <Pdf path="./pdf/model.pdf" title="模型の模造紙" />
+            <_Image path="./image/model.webp" title="模型の模造紙" />
         </section>  
     );
 }
@@ -80,7 +82,9 @@ export function GalacticRadio() {
             <_Image path="./image/galactic_radio_data5.webp" title="観測データ５" />
             <_Image path="./image/galactic_radio_data6.webp" title="観測データ６" />
             <p>&emsp;今後の展望として、<Ruby text="解析" ruby="かいせき" />を進めて具体的な数値を求めたり、学校内でも新しいデータを得ようと考えています。</p>
-            <Pdf path="./pdf/galactic_radio.pdf" title="銀河電波の模造紙" />
+            <_Image path="./image/galactic_radio1.webp" title="銀河電波の模造紙 1ページ目" />
+            <_Image path="./image/galactic_radio2.webp" title="銀河電波の模造紙 2ページ目" />
+            <_Image path="./image/galactic_radio3.webp" title="銀河電波の模造紙 3ページ目" />
         </section>
     );
 }
@@ -97,14 +101,15 @@ export function SunObservation() {
             <_Image path="./image/sun_observation_dark_filament.webp" title={(<>同日<Ruby text="撮影" ruby="さつえい" /> ダークフィラメントの様子</>)} />
             <p className={styles.paragraph} >&emsp;また、展示のタイムラプスビデオは、カメラ観測で得た1月13日から8月23日までの太陽の写真を<Ruby text="繋" ruby="つな" />ぎ合わせたものです。実は太陽も地球と同じように自転しており、それによる黒点の動きがよくわかると思いますので、ぜひ注目してご覧ください。</p>
             <Video path="./video/timelapse.mp4" title="タイムラプス" />
-            <Pdf path="./pdf/sun_observation.pdf" title="太陽観測の模造紙" />
+            <_Image path="./image/sun_observation1.webp" title="太陽観測の模造紙 1ページ目" />
+            <_Image path="./image/sun_observation2.webp" title="太陽観測の模造紙 2ページ目" />
         </section>
     );
 }
 
 export function Telescope() {
     return (
-        <Pdf path="./pdf/telescope.pdf" title="望遠鏡の模造紙" />
+        <_Image path="./image/telescope.webp" title="望遠鏡の模造紙" />
     );
 }
 
@@ -121,7 +126,7 @@ export function Tornado() {
                 <br />&emsp;また、<Ruby text="竜巻" ruby="たつまき" />は移動しますが、この実験では移動しません。
             </p>
             <Video path="./video/tornado.mp4" title={(<><Ruby text="竜巻" ruby="たつまき"/>の実験の様子</>)} />
-            <Pdf path="./pdf/tornado.pdf" title={(<Ruby text="竜巻" ruby="たつまき" />)} />
+            <_Image path="./image/tornado.webp" title={(<><Ruby text="竜巻" ruby="たつまき" />の模造紙</>)} />
         </section>
     );
 }
