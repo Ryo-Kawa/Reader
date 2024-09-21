@@ -115,7 +115,7 @@ export function Telescope() {
 export function Tornado() {
     return (
         <section>
-            <_Image path="./image/tornado.webp" title={(<><Ruby text="竜巻" ruby="たつまき"/>の実験器具</>)} />
+            <_Image path="./image/tornado_equipment.webp" title={(<><Ruby text="竜巻" ruby="たつまき"/>の実験器具</>)} />
             <p className={styles.paragraph} >&emsp;この装置は下のブロワーから風を送り出し、八本のパイプに空気が送り込まれます。このパイプには同じ角度に穴が空いていて、そこから空気が放出されます。これらがぶつかり合うことで<Ruby text="渦" ruby="うず" />が出来ます。これが上についてあるサーキュレーターの上昇気流により引き延ばされます。
                 <br />&emsp;これは（非スーパーセル）<Ruby text="竜巻" ruby="たつまき" />における地表付近の<Ruby text="渦" ruby="うず" />を再現しています。
                 <br />&emsp;装置の上のサーキュレーターが空気を吸い上げ、これは積乱雲による上昇気流を再現しています。
@@ -125,7 +125,8 @@ export function Tornado() {
                 <br />&emsp;また、<Ruby text="竜巻" ruby="たつまき" />は移動しますが、この実験では移動しません。
             </p>
             <Video path="./video/tornado.mp4" title={(<><Ruby text="竜巻" ruby="たつまき"/>の実験の様子</>)} />
-            <_Image path="./image/tornado.webp" title={(<><Ruby text="竜巻" ruby="たつまき" />の模造紙</>)} />
+            <_Image path="./image/tornado1.webp" title={(<><Ruby text="竜巻" ruby="たつまき" />の模造紙 1ページ目</>)} />
+            <_Image path="./image/tornado2.webp" title={(<><Ruby text="竜巻" ruby="たつまき" />の模造紙 2ページ目</>)} />
         </section>
     );
 }
