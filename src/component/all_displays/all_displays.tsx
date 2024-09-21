@@ -64,8 +64,8 @@ export function ConstellationModel() {
                 <br />&emsp;では、オリオン座の星で「絶対等級」が一番明るい星はなんでしょうか…？<Ruby text="是非" ruby="ぜひ" />展示をご覧ください！
             </p>
             <div className={styles.paperWrapper}>
-                <_Image path="./image/constellation_model1.webp" title="星座模型の模造紙 1ページ目" />
-                <_Image path="./image/constellation_model2.webp" title="星座模型の模造紙 2ページ目" />
+                <_Image path="./image/constellation_model1.webp" title="" />
+                <_Image path="./image/constellation_model2.webp" title="星座模型の模造紙" />
             </div>
         </section>
     );
@@ -79,8 +79,8 @@ export function Model() {
                 <br />&emsp;また、強度の関係で文化祭間近に<Ruby text="壊" ruby="こわ" />れるというハプニングもあり最後まで<Ruby text="波乱万丈" ruby="はらんばんじょう" />でしたが、個人的にはとても良い出来になったと思います。ぜひ実際のH-IIAロケット47号機の写真と比べながら見てみてください。
             </p>
             <div className={styles.paperWrapper}>
-                <_Image path="./image/model1.webp" title="模型の模造紙 1ページ目" />
-                <_Image path="./image/model2.webp" title="模型の模造紙 2ページ目" />
+                <_Image path="./image/model1.webp" title="" />
+                <_Image path="./image/model2.webp" title="模型の模造紙" />
             </div>
         </section>  
     );
@@ -103,9 +103,9 @@ export function GalacticRadio() {
             <_Image path="./image/galactic_radio_data6.webp" title="観測データ６" />
             <p>&emsp;今後の展望として、<Ruby text="解析" ruby="かいせき" />を進めて具体的な数値を求めたり、学校内でも新しいデータを得ようと考えています。</p>
             <div className={styles.paperWrapper}>
-                <_Image path="./image/galactic_radio1.webp" title="銀河電波の模造紙 1ページ目" />
-                <_Image path="./image/galactic_radio2.webp" title="銀河電波の模造紙 2ページ目" />
-                <_Image path="./image/galactic_radio3.webp" title="銀河電波の模造紙 3ページ目" />
+                <_Image path="./image/galactic_radio1.webp" title="" />
+                <_Image path="./image/galactic_radio2.webp" title="" />
+                <_Image path="./image/galactic_radio3.webp" title="銀河電波の模造紙" />
             </div>
         </section>
     );
@@ -124,8 +124,8 @@ export function SunObservation() {
             <p className={styles.paragraph} >&emsp;また、展示のタイムラプスビデオは、カメラ観測で得た1月13日から8月23日までの太陽の写真を<Ruby text="繋" ruby="つな" />ぎ合わせたものです。実は太陽も地球と同じように自転しており、それによる黒点の動きがよくわかると思いますので、ぜひ注目してご覧ください。</p>
             <Video path="./video/timelapse.mp4" title="タイムラプス" />
             <div className={styles.paperWrapper}>
-                <_Image path="./image/sun_observation1.webp" title="太陽観測の模造紙 1ページ目" />
-                <_Image path="./image/sun_observation2.webp" title="太陽観測の模造紙 2ページ目" />
+                <_Image path="./image/sun_observation1.webp" title="" />
+                <_Image path="./image/sun_observation2.webp" title="太陽観測の模造紙" />
             </div>
         </section>
     );
@@ -151,8 +151,8 @@ export function Tornado() {
             </p>
             <Video path="./video/tornado.mp4" title={(<><Ruby text="竜巻" ruby="たつまき"/>の実験の様子</>)} />
             <div className={styles.paperWrapper}>
-                <_Image path="./image/tornado1.webp" title={(<><Ruby text="竜巻" ruby="たつまき" />の模造紙 1ページ目</>)} />
-                <_Image path="./image/tornado2.webp" title={(<><Ruby text="竜巻" ruby="たつまき" />の模造紙 2ページ目</>)} />
+                <_Image path="./image/tornado1.webp" title="" />
+                <_Image path="./image/tornado2.webp" title={(<><Ruby text="竜巻" ruby="たつまき" />の模造紙</>)} />
             </div>
         </section>
     );
