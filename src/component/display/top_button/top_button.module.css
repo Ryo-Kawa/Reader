@@ -1,7 +1,7 @@
 .button {
     position: fixed;
     right: 30px;
-    bottom: 20px;
+    bottom: 40px;
     z-index: 99;
     border: 2px solid black;
     border-radius: 100%;
