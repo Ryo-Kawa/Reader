@@ -12,8 +12,7 @@ export function Front() {
                 <br />&emsp;暖気が寒気の上にのし上がっていく温暖前線、寒気が暖気の上に潜り込んでいく寒冷前線の形を再現することができた一方、容器との<Ruby text="摩擦" ruby="まさつ" />の<Ruby text="影響" ruby="えいきょう" />が実際よりも大きいため、実際はどちらの前線もこの実験より<Ruby text="尖" ruby="とが" />った形になると考えられます。
             </p>
             <Video path="./video/front.mp4" title="前線の実験の様子" />
-            <Pdf path="./pdf/front.pdf" title="前線の模造紙" />
-            <object data="filename.pdf" type="application/pdf" width="500" height="500"/>
+            <Pdf path="./pdf/front.pdf" title="前線の模造紙" >
         </section>
     );
 }
