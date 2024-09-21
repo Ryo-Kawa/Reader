@@ -17,7 +17,7 @@ export function Front() {
 export function KarmanVortexStreet() {
     return (
         <section>
-            <Video path="./video/karman_vortex_street.mp4" title={(<>カルマン渦の実験の様子</>)} />
+            <Video path="./video/karman_vortex_street.mp4" title={(<>カルマン<Ruby text="渦" ruby="うず" />の実験の様子</>)} />
         </section>
     );
 }
@@ -96,7 +96,7 @@ export function Telescope() {
 export function Tornado() {
     return (
         <section>
-            <_Image path="./image/tornado.webp" title={(<>竜巻の実験器具</>)} />
+            <_Image path="./image/tornado.webp" title={(<><Ruby text="竜巻" ruby="たつまき"/>の実験器具</>)} />
             <p>&emsp;この装置は下のブロワーから風を送り出し、八本のパイプに空気が送り込まれます。このパイプには同じ角度に穴が空いていて、そこから空気が放出されます。これらがぶつかり合うことで<Ruby text="渦" ruby="うず" />が出来ます。これが上についてあるサーキュレーターの上昇気流により引き延ばされます。
                 <br />&emsp;これは（非スーパーセル）<Ruby text="竜巻" ruby="たつまき" />における地表付近の<Ruby text="渦" ruby="うず" />を再現しています。
                 <br />&emsp;装置の上のサーキュレーターが空気を吸い上げ、これは積乱雲による上昇気流を再現しています。
@@ -104,7 +104,7 @@ export function Tornado() {
                 <br />&emsp;一方、パイプで人工的に渦を作っていることが実際とは異なります。
                 <br />&emsp;また、<Ruby text="桶" ruby="おけ" />を動かしていることは、実際の<Ruby text="竜巻" ruby="たつまき" />では地面が動くこととなり、そこも異なる点です。
                 <br />&emsp;また、<Ruby text="竜巻" ruby="たつまき" />は移動しますが、この実験では移動しません。</p>
-            <Video path="./video/tornado.mp4" title={(<>竜巻の実験の様子</>)} />
+            <Video path="./video/tornado.mp4" title={(<><Ruby text="竜巻" ruby="たつまき"/>の実験の様子</>)} />
         </section>
     );
 }
