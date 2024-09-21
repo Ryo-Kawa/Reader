@@ -51,7 +51,18 @@ export function _3DWeatherChart() {
 export function ConstellationModel() {
     return (
         <section>
-            <p>&emsp;Coming soon...</p>
+            <p>&emsp;星座模型は星座を構成する星々をの違いが分かるようにスケールを縮めて再現した模型です。
+                <br />&emsp;正面から見ると星座の形に見えますが、横から見ると地球から星の<Ruby text="距離" ruby="きょり" />が一目で分かる模型となっています。
+                <br /><br />&emsp;今回の展示ではオリオン座の模型を作りました。
+                <br />&emsp;オリオン座は冬の星座で、リゲルという青白い0等星とベテルギウスという赤色の1等星があります。
+                <br />&emsp;冬の大三角やダイヤモンドなどでも有名な星座です。
+                <br /><br />&emsp;注目して欲しいポイントは明るさです。
+                <br />&emsp;この模型では明るさの再現も行いました。
+                <br />&emsp;正面から見た明るさと横から見た明るさが少し違うように見えると思います。
+                <br />&emsp;正面から見た明るさを「見かけの等級」、横から見た明るさを「絶対等級」といいます。
+                <br />&emsp;先程<Ruby text="紹介" ruby="しょうかい" />したベテルギウスやリゲルの1等や0等は「見かけの等級」を表しています。
+                <br />&emsp;では、オリオン座の星で「絶対等級」が一番明るい星はなんでしょうか…？<Ruby text="是非" ruby="ぜひ" />展示をご覧ください！
+            </p>
             <div className={styles.paperWrapper}>
                 <_Image path="./image/constellation_model1.webp" title="星座模型の模造紙 1ページ目" />
                 <_Image path="./image/constellation_model2.webp" title="星座模型の模造紙 2ページ目" />
