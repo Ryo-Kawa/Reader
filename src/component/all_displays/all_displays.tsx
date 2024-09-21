@@ -17,10 +17,10 @@ export function Front() {
 export function KarmanVortexStreet() {
     return (
         <section>
+            <Video path="./video/karman_vortex_street.mp4" title={(<>カルマン<Ruby text="渦" ruby="うず" />の実験の様子</>)} />
             <p>&emsp;カルマン渦とは、空気の流れの中に障害物があるときに、障害物の後方に<Ruby text="渦" ruby="うず" />ができる現象です。<Ruby text="縄跳" ruby="なわと" />びの「ヒュンッ」やバットの「ヒュッ」という風切り音などもこの現象によるものです。空気の流れの中に障害物があると、その障害物の後ろは周りと比べると空気の流れの速さが<Ruby text="遅" ruby="おそ" />くなるので、周りの空気が障害物の後ろに回り込むように入ってくるので、その流れが<Ruby text="渦上" ruby="かじょう" />に見えます。
                 <br />&emsp;この展示では、カルマン<Ruby text="渦" ruby="うず" />を実際に目視で見ることができる冬の<Ruby text="韓国" ruby="かんこく" />の沖合のチェジュ島と呼ばれる島の後方で見られるカルマン<Ruby text="渦" ruby="うず" />を参考にし、実際に<Ruby text="渦" ruby="うず" />になる様子を展示で実演しています。
             </p>
-            <Video path="./video/karman_vortex_street.mp4" title={(<>カルマン<Ruby text="渦" ruby="うず" />の実験の様子</>)} />
         </section>
     );
 }
