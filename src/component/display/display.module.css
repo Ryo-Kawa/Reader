@@ -1,0 +1,36 @@
+.display {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 20px;
+}
+
+.main {
+    padding-bottom: 60px;
+}
+
+.header {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.audio {
+    position: relative;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 0;
+}
+
+@media only screen and (max-width: 480px) {
+    .display {
+        width: 95%;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .display {
+        width: 80%;
+    }
+}

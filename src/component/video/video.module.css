@@ -1,0 +1,26 @@
+.videoWrapper {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.video {
+    object-fit: contain;
+    width: 100%;
+    max-height: 90vh;
+}
+
+@media only screen and (max-width: 480px) {
+    .videoWrapper {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .videoWrapper {
+        width: 80%;
+    }
+}
